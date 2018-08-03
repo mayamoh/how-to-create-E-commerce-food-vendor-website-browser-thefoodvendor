@@ -21,6 +21,6 @@ To join SLACK community, sign up on the RAVE INTERFACE , embed its multipurpose 
  
 
 
-
+click to visit the site on the google:  https://console.cloud.google.com/storage/
 
 
