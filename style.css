@@ -1,0 +1,74 @@
+@charset "utf-8";
+body {
+	
+	
+	background-image:url(../img/summer.jpg);
+	background-position:!important;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+
+.container {
+	width:auto;
+	height:600px;
+	float:none;
+	background-color:rgba(0, 0, 0, 255);
+	z-index:1;
+	opacity: 0.8;
+	background:fixed;
+	
+	}
+	
+.button  {
+	width:100%;
+	margin-top:185px;
+	text-transform:uppercase;
+	text-align:center;
+	color:white;
+	}
+	
+.button h4 {
+	font-size:14px;
+	font-family:'open sans', sans-serif;
+	
+	}
+	
+.button h1 {
+	font-size:62px;
+	font-family:'montserat', san-serif;
+	font-weight:700px;
+	margin:10px, 0px;
+	}
+	
+.button h3 {
+	font-size:12px;
+	font-family:'open sans', sans-serif;
+	}
+	
+#buttonone  {
+	background-color:#fff;
+	border:none;
+	font-size:13px;
+	font-family: 'montserat', san-serif;
+	text-transform:uppercase;
+	font-weight:bold;
+	line-height:35px;
+	width:150px;
+	border-radius:12px;
+	border: 3px solid white;
+	margin-top:20px;
+	}
+	
+#buttonone a {
+	text-decoration:none;
+	color:#34495e;
+	transition:all .5s ease;
+	position:relative;
+	z-index:2;
+	
+	}
+#buttonone a:hover{
+	color:#09C;
+	}
+

@@ -1,0 +1,522 @@
+@charset "utf-8";
+body {
+}
+.container{
+	width:auto;
+	height:auto;
+	float:none;
+	magin:auto;
+	background-color: #fff;
+	
+	}
+.wrap{
+	width:100%;
+	height:100px;
+	float:none;
+	background-color:rgba(0,0,0,0.5);
+	
+	
+	}
+.header {
+	width:295px;
+	height:100px;
+	float:left;
+	line-height:40px;
+	color:orange;
+	}
+	
+.header h4 {
+	padding-left:40px;
+	font-weight:bold;
+	font-size:26px;
+	font-family: 'montserrat', sans-serif;
+	
+	}
+	
+.menu{
+	width:60%;
+	height:100px;
+	float:right;
+	}
+
+	
+.menu ul li {
+	font-family:"Lucida Console", Monaco, monospace;
+	display: inline-block;
+	list-style:none;
+	font-size:15px;
+	color:#fff;
+	float:left;
+	font-weight:100;
+	line-height:60px;
+	margin-left:35px;
+	text-transform:capitalize;
+	
+	}
+	
+.menu li a {
+	text-decoration:none;
+	color:#fff;
+	}
+	
+.menu ul li  :hover{
+		color:orange;
+		}
+		
+
+
+	
+	
+		
+.index-links {
+	padding-bottom:20px;
+	
+	
+	}
+.index-links div {
+	margin:20px 10px 0px;
+	width:25%;
+	height:200px;
+	background-color:#f2f2f2;
+	float:left;
+	
+	
+	
+	
+	
+	}
+	
+.index-boxlink-square{
+	width: calc(25% - 20px) !important;
+	background-image:url(../img/images%20(3).jpg);
+	
+	}
+	
+.index-boxlink-rectangle{
+	width:calc(49% - 20px) !important;
+	background-image:url(../img/diabetes2.jpg);
+	}
+	
+.index-links div h3 {
+	font-family:catamaran;
+	font-size:28px;
+	font-weight:600;
+	line-height:40px;
+	color:#111;
+	text-align:center;
+	text-transform:uppercase;
+	transition:all .5s ease;
+	cursor:pointer;
+	
+	}
+.index-boxlinks a:hover{
+	color:#fff;
+	
+	}
+.bgimage{
+	background-image:url(../img/food.jpg);
+	background-size:100% 100%;
+	}
+.frame {
+	width: 400px;
+	height:300px;
+	float:none;
+	margin:auto;
+	padding-top:60px;
+	padding-bottom:100px;
+	margin-top:60px;
+	background-color:rgba(0 ,0 ,0 , 0.9);
+	
+}
+.loginbox h1 {
+	text-align:center;
+	color:white;
+	padding-bottom:20spx;
+	
+	}
+.loginbox p {
+	margin:0;
+	padding:0;
+	margin-left:20px;
+	font-weight:bold;
+	color:#fff;
+		}
+		
+.loginbox input{
+	width:50%;
+	margin-bottom:20px;
+
+	
+}
+.loginbox input[type="text"], input[type="password"] {
+	
+	border:none;
+	border-bottom:1px solid white;
+	background:transparent;
+	outline:none;
+	height:40px;
+	color:white;
+	font-size:16px;
+	margin-left: 20px;
+}
+
+.loginbox input[type="submit"]{
+	border:none;
+	outline:none;
+	height:40px;
+	background:#333;
+	color:#fff;
+	font-size:18px;
+	border-radius:20px;
+	margin-left:20px;
+}
+
+.loginbox input[type="submit"]:hover{
+	cursor:pointer;
+	background:#ffc107;
+	}
+	
+.loginbox a {
+	text-decoration:none;
+	font-size:14px;
+	line-height:20px;
+	color:#fff;
+	margin-left:12px;
+}
+
+#buttonone  {
+	background-color:#fff;
+	border:none;
+	font-size:13px;
+	font-family: 'montserat', san-serif;
+	text-transform:uppercase;
+	font-weight:bold;
+	line-height:35px;
+	width:120px;
+	border-radius:1px;
+	border: 3px solid white;
+	margin-top:20px;
+	}
+	
+#buttonone a {
+	text-decoration:none;
+	color:#34495e;
+	transition:all .5s ease;
+	position:relative;
+	z-index:2;
+	
+	}
+#buttonone a:hover{
+	color:#09C;
+	}
+
+/*signup */
+
+.bgimage1{
+	background-image:url(../img/food.jpg);
+	background-size:100% 100%;
+	width:100%;
+	height:100vh;
+	}
+
+.frame1 {
+	width: 550px;
+	height:500px;
+	float:none;
+	margin:auto;
+	padding-top:60px;
+	padding-bottom:100px;
+	margin-top:60px;
+	background-color:rgba(0 ,0 ,0 , 0.9);
+	
+}
+
+.loginbox1 h1 {
+	text-align:center;
+	color:white;
+	padding-bottom:20spx;
+	
+	}
+.loginbox1 p {
+	margin:0;
+	padding:0;
+	margin-left:20px;
+	font-weight:bold;
+	color:#fff;
+		}
+		
+.loginbox1 input{
+	width:50%;
+	margin-bottom:20px;
+
+	
+}
+.loginbox1 input[type="text"], input[type="password"] {
+	
+	border:none;
+	border-bottom:1px solid white;
+	background:transparent;
+	outline:none;
+	height:40px;
+	color:white;
+	font-size:16px;
+	margin-left: 20px;
+}
+
+.loginbox1 input[type="submit"]{
+	border:none;
+	outline:none;
+	height:40px;
+	background:#333;
+	color:#fff;
+	font-size:18px;
+	border-radius:20px;
+	margin-left:25%;
+}
+
+.loginbox1 input[type="submit"]:hover{
+	cursor:pointer;
+	background:#ffc107;
+	}
+	
+.loginbox1 a {
+	text-decoration:none;
+	font-size:14px;
+	line-height:20px;
+	color:#fff;
+	margin-left:12px;
+}
+
+/*menu*/
+
+
+
+	
+.wrap1{
+	width:100%;
+	height:60px;
+	float:none;
+	background-color:#000;
+	margin:12px 0 0;
+}
+
+.wrap1 ul li{
+	margin:0;
+	padding:0;
+	
+	}
+.wrap1 ul li {
+	
+	font-family:"Lucida Console", Monaco, monospace;
+	display: inline-block;
+	list-style:none;
+	font-size:20px;
+	color:#fff;
+	float:left;
+	font-weight:100;
+	line-height:50px;
+	margin-left:45px;
+	text-transform:capitalize;
+	
+	}
+.wrap1 li a {
+	text-decoration:none;
+	color:#F93;
+	}
+	
+.wrap1 a:hover{
+	color:#fff;
+	}
+	
+	
+.wrapbox{
+	width:100%;
+	height:500px;
+	float:none;
+	background-color:#FFF;
+	margin:12px 0 0;
+	box-sizing:border-box;
+	padding:0;
+	color:#fff;
+}
+
+
+.leftbar{
+		width:550px;
+		height:500px;
+		float:left;
+		background-color:#600;
+		
+	}
+	
+.righttbar{
+		width:545px;
+		height:500px;
+		float:right;
+		background-color:#634;
+		
+	}
+	
+
+
+
+
+
+
+/*contact form*/
+
+.contact{
+	width:600px;
+	height:700px;
+	float:none;
+	margin:auto;
+	background-color:#000;
+	padding:10px;
+	margin-top:20px;
+	color:#fff;
+	}
+.contact h1 {
+	text-align:center;
+	font-size:36px;
+	font-weight:600;
+	}
+.contact h2 {
+	text-align:center;
+	margin:2px;
+	}
+.contact h4{
+	text-align:center;
+	}
+
+
+
+.contact p {
+	margin:0;
+	padding:0;
+	margin-left:20px;
+	font-weight:bold;
+	color:#fff;
+		}
+		
+.contact input{
+	width:90%;
+	height:40px;
+	margin-bottom:20px;
+	border-radius:5px;
+}
+
+.contact input[id="message"]  {
+	height:100px;	
+}
+
+.contact input[type="submit"]{
+	border:none;
+	outline:none;
+	width:50%;
+	height:40px;
+	background:#333;
+	color:#fff;
+	font-size:18px;
+	border-radius:20px;
+	margin-left:20%;
+}
+
+.footer{
+
+	width:100%;
+	height:100px;
+	clear:both;
+	background-color:#632;
+	bottom:100px;
+	margin:;
+
+	
+	}
+	
+	
+/*checkout*/
+
+.checkoutcon {
+	width:auto;
+	height:1000px;
+	background-color:#fff;
+	margin:0;
+	
+	}
+.actionpage {
+	 width:800px;
+	 height:auto;
+	 float:left;
+	 background-color:#999;
+	 box-shadow:#CCC;
+	 margin: 30px 5px 0;
+	
+	}
+.actionheader {
+	width:auto;
+	height:60px;
+	float:none;
+	background-color:#ccc;
+	color:#F60;
+	
+	}
+.actionheader h4 {
+	color:#000;
+	font-size:16px;
+	
+	}
+	
+	.actionpage p {
+	margin:0;
+	padding:0;
+	margin-left:20px;
+	font-weight:bold;
+	color:#fff;
+		}
+		
+.actionpage input{
+	width:300px;
+	height:40px;
+	margin-bottom:20px;
+
+	
+}
+.actionpage input[type="text"], input[type="number"],input[type="email"] {
+	
+	border:none;
+	border-bottom:1px solid white;
+	background:transparent;
+	outline:none;
+	height:40px;
+	color:white;
+	font-size:16px;
+	margin-left: 20px;
+}
+
+.actionpage input[type="buttonone"]{
+	border:none;
+	outline:none;
+	height:40px;
+	background:#333;
+	color:#fff;
+	font-size:18px;
+	border-radius:20px;
+	margin-left:25%;
+}
+
+.actionpage input[type="buttonone"]:hover{
+	cursor:pointer;
+	background:#ffc107;
+	}
+
+
+.actionpageright {
+	 
+	 width:400px;
+	 height:400px;
+	 float:right;
+	 background-color:#ccc;
+	 box-shadow:#ccc;
+	 margin:40px 5px 0;
+	 
+}
